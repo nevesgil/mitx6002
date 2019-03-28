@@ -26,7 +26,7 @@ def look_for_all_the_things(myList):
             return True
     return False
     
-```
+'''
 Explanation: 
 The point of this exercise was to get you thinking about the complexity of functions, specifically the complexity 
 of different ways to enumerate items. Keep these complexities in mind as you continue throughout this lecture sequence. 
@@ -36,4 +36,4 @@ O (2^n) is the complexity for the final question because we are enumerating all
 possible subsets of a set, known as the "power set" of a set. We will talk about power sets more in the next videos. 
 Technically, the complexity is actually O(n * 2^n) because the sum() is O(n)
 , but (2^n) is already large enough that we can ignore the multiplier.
-```
+'''
