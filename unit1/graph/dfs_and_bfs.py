@@ -92,6 +92,8 @@ def printPath(path):
             result = result + '->'
     return result 
 
+
+###############################################################################################
 def DFS(graph, start, end, path, shortest, toPrint = False):
     """Assumes graph is a Digraph; start and end are nodes;
           path and shortest are lists of nodes
@@ -130,6 +132,9 @@ def testSP(source, destination):
 #testSP('Chicago', 'Boston')
 testSP('Boston', 'Phoenix')
 
+
+
+###############################################################################################
 def BFS(graph, start, end, toPrint = False):
     """Assumes graph is a Digraph; start and end are nodes
        Returns a shortest path from start to end in graph"""
